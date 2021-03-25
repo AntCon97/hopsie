@@ -1,0 +1,45 @@
+/*=Custom
+-----------------------------------------------------------*/
+
+body {
+  background-image: linear-gradient(#fff, #ececec);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+a {
+  color: black;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.item {
+  padding-top: 10px;
+}
+
+#footer {
+  background-color: #e6e6e6;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+#pages {
+  margin-top: 2rem;
+}
+
+@media (max-width: 767px) {
+  .item {
+    display: none;
+  }
+}
